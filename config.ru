@@ -3,5 +3,8 @@ require 'bundler'
 
 Bundler.require
 
-require './app.rb'
+require './config/amazon_s3'
+require './models/image'
+require './app'
+
 run Sinatra::Application
